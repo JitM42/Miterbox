@@ -318,122 +318,6 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.11979166666666667,
-      "y": 0.8850855745721272,
-      "uniqueID": "id-81",
-      "name": "ply-hinge",
-      "ioValues": [
-        {
-          "name": "ply",
-          "ioValue": 18
-        },
-        {
-          "name": "hinge",
-          "ioValue": 1
-        }
-      ],
-      "currentEquation": "ply-hinge"
-    },
-    {
-      "atomType": "RegularPolygon",
-      "x": 0.20572916666666666,
-      "y": 0.7921760391198044,
-      "uniqueID": "id-87",
-      "ioValues": [
-        {
-          "name": "number of sides",
-          "ioValue": 3
-        },
-        {
-          "name": "diameter",
-          "ioValue": 17
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.49895833333333334,
-      "y": 0.6356968215158925,
-      "uniqueID": "id-91",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 125
-        },
-        {
-          "name": "yDist",
-          "ioValue": 375
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.3302083333333333,
-      "y": 0.8948655256723717,
-      "uniqueID": "id-97",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 90
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.36614583333333334,
-      "y": 0.7652811735941321,
-      "uniqueID": "id-103",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 750
-        }
-      ]
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.2729166666666667,
-      "y": 0.6503667481662592,
-      "uniqueID": "id-107",
-      "name": "height+depth+height",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 250
-        },
-        {
-          "name": "depth",
-          "ioValue": 250
-        }
-      ],
-      "currentEquation": "height+depth+height"
-    },
-    {
-      "atomType": "Equation",
       "x": 0.2046875,
       "y": 0.6528117359413204,
       "uniqueID": "id-113",
@@ -449,66 +333,6 @@
         }
       ],
       "currentEquation": "(depth/2)+height"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.3885416666666667,
-      "y": 0.9022004889975551,
-      "uniqueID": "id-124",
-      "name": "width/2",
-      "ioValues": [
-        {
-          "name": "width",
-          "ioValue": 250
-        }
-      ],
-      "currentEquation": "width/2"
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.4427083333333333,
-      "y": 0.9633251833740831,
-      "uniqueID": "id-129",
-      "name": "",
-      "currentEquation": ""
-    },
-    {
-      "atomType": "Move",
-      "x": 0.2791666666666667,
-      "y": 0.8312958435207825,
-      "uniqueID": "id-224",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 5.666666666666667
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Equation",
-      "x": 0.22291666666666668,
-      "y": 0.941320293398533,
-      "uniqueID": "id-230",
-      "name": "diam/3",
-      "ioValues": [
-        {
-          "name": "diam",
-          "ioValue": 17
-        }
-      ],
-      "currentEquation": "diam/3"
     }
   ],
   "allConnectors": [
@@ -516,11 +340,6 @@
       "ap2Name": "height",
       "ap1ID": "id-4",
       "ap2ID": "id-75"
-    },
-    {
-      "ap2Name": "ply",
-      "ap1ID": "id-4",
-      "ap2ID": "id-81"
     },
     {
       "ap2Name": "x length",
@@ -548,11 +367,6 @@
       "ap2ID": "id-62"
     },
     {
-      "ap2Name": "width",
-      "ap1ID": "id-6",
-      "ap2ID": "id-124"
-    },
-    {
       "ap2Name": "y length",
       "ap1ID": "id-8",
       "ap2ID": "id-12"
@@ -578,11 +392,6 @@
       "ap2ID": "id-113"
     },
     {
-      "ap2Name": "depth",
-      "ap1ID": "id-8",
-      "ap2ID": "id-107"
-    },
-    {
       "ap2Name": "y length",
       "ap1ID": "id-10",
       "ap2ID": "id-16"
@@ -591,11 +400,6 @@
       "ap2Name": "x length",
       "ap1ID": "id-10",
       "ap2ID": "id-36"
-    },
-    {
-      "ap2Name": "height",
-      "ap1ID": "id-10",
-      "ap2ID": "id-107"
     },
     {
       "ap2Name": "height",
@@ -681,56 +485,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-75",
       "ap2ID": "id-2"
-    },
-    {
-      "ap2Name": "hinge",
-      "ap1ID": "id-79",
-      "ap2ID": "id-81"
-    },
-    {
-      "ap2Name": "diameter",
-      "ap1ID": "id-81",
-      "ap2ID": "id-87"
-    },
-    {
-      "ap2Name": "diam",
-      "ap1ID": "id-81",
-      "ap2ID": "id-230"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-87",
-      "ap2ID": "id-224"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-97",
-      "ap2ID": "id-103"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-103",
-      "ap2ID": "id-91"
-    },
-    {
-      "ap2Name": "height",
-      "ap1ID": "id-107",
-      "ap2ID": "id-103"
-    },
-    {
-      "ap2Name": "yDist",
-      "ap1ID": "id-113",
-      "ap2ID": "id-91"
-    },
-    {
-      "ap2Name": "xDist",
-      "ap1ID": "id-124",
-      "ap2ID": "id-91"
-    },
-    {
-      "ap2Name": "yDist",
-      "ap1ID": "id-230",
-      "ap2ID": "id-224"
     }
   ],
   "unitsKey": "MM",
