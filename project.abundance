@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.03177083333333333,
-      "y": 0.2591687041564792,
+      "x": 0.03125,
+      "y": 0.24205378973105132,
       "uniqueID": "id-4",
       "name": "Ply",
       "value": 18
@@ -333,6 +333,165 @@
         }
       ],
       "currentEquation": "(depth/2)+height"
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.259375,
+      "y": 0.8190709046454767,
+      "uniqueID": "id-238",
+      "name": "Hingebar",
+      "ioValues": [
+        {
+          "name": "Ply",
+          "ioValue": 10
+        },
+        {
+          "name": "Hingesize",
+          "ioValue": 10
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-240",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0231,
+          "y": 0.15158924205378974,
+          "uniqueID": "id-242",
+          "name": "Ply"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0231,
+          "y": 0.5012224938875306,
+          "uniqueID": "id-245",
+          "name": "Hingesize"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.1390625,
+          "y": 0.28361858190709044,
+          "uniqueID": "id-248",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.21614583333333334,
+          "y": 0.293398533007335,
+          "uniqueID": "id-252",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 5
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.13802083333333334,
+          "y": 0.4718826405867971,
+          "uniqueID": "id-258",
+          "name": "ply/2",
+          "ioValues": [
+            {
+              "name": "ply",
+              "ioValue": 10
+            }
+          ],
+          "currentEquation": "ply/2"
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.29531250000000003,
+          "y": 0.34474327628361856,
+          "uniqueID": "id-263",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90,
+              "currentEquation": "90"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "x length",
+          "ap1ID": "id-242",
+          "ap2ID": "id-248"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-242",
+          "ap2ID": "id-248"
+        },
+        {
+          "ap2Name": "ply",
+          "ap1ID": "id-242",
+          "ap2ID": "id-258"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-248",
+          "ap2ID": "id-252"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-252",
+          "ap2ID": "id-263"
+        },
+        {
+          "ap2Name": "y-axis degrees",
+          "ap1ID": "id-252",
+          "ap2ID": "id-263"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-258",
+          "ap2ID": "id-252"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
