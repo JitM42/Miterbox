@@ -318,8 +318,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.10208333333333333,
-      "y": 0.8728606356968216,
+      "x": 0.11979166666666667,
+      "y": 0.8850855745721272,
       "uniqueID": "id-81",
       "name": "ply-hinge",
       "ioValues": [
@@ -336,8 +336,8 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.20989583333333334,
-      "y": 0.8704156479217604,
+      "x": 0.20572916666666666,
+      "y": 0.7921760391198044,
       "uniqueID": "id-87",
       "ioValues": [
         {
@@ -352,8 +352,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2947916666666667,
-      "y": 0.841075794621027,
+      "x": 0.49895833333333334,
+      "y": 0.6356968215158925,
       "uniqueID": "id-91",
       "ioValues": [
         {
@@ -376,8 +376,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.34427083333333336,
-      "y": 0.7897310513447433,
+      "x": 0.3302083333333333,
+      "y": 0.8948655256723717,
       "uniqueID": "id-97",
       "ioValues": [
         {
@@ -400,8 +400,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.4177083333333333,
-      "y": 0.7359413202933985,
+      "x": 0.36614583333333334,
+      "y": 0.7652811735941321,
       "uniqueID": "id-103",
       "ioValues": [
         {
@@ -471,6 +471,44 @@
       "uniqueID": "id-129",
       "name": "",
       "currentEquation": ""
+    },
+    {
+      "atomType": "Move",
+      "x": 0.2791666666666667,
+      "y": 0.8312958435207825,
+      "uniqueID": "id-224",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 5.666666666666667
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.22291666666666668,
+      "y": 0.941320293398533,
+      "uniqueID": "id-230",
+      "name": "diam/3",
+      "ioValues": [
+        {
+          "name": "diam",
+          "ioValue": 17
+        }
+      ],
+      "currentEquation": "diam/3"
     }
   ],
   "allConnectors": [
@@ -655,14 +693,24 @@
       "ap2ID": "id-87"
     },
     {
+      "ap2Name": "diam",
+      "ap1ID": "id-81",
+      "ap2ID": "id-230"
+    },
+    {
       "ap2Name": "geometry",
-      "ap1ID": "id-91",
-      "ap2ID": "id-97"
+      "ap1ID": "id-87",
+      "ap2ID": "id-224"
     },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-97",
       "ap2ID": "id-103"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-103",
+      "ap2ID": "id-91"
     },
     {
       "ap2Name": "height",
@@ -678,6 +726,11 @@
       "ap2Name": "xDist",
       "ap1ID": "id-124",
       "ap2ID": "id-91"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-230",
+      "ap2ID": "id-224"
     }
   ],
   "unitsKey": "MM",
