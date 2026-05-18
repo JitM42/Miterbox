@@ -259,9 +259,62 @@
         }
       ],
       "currentEquation": "2*x"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.5885416666666666,
+      "y": 0.508557457212714,
+      "uniqueID": "id-66",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 5",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 6",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.6604166666666667,
+      "y": 0.6308068459657702,
+      "uniqueID": "id-75",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 18
+        }
+      ]
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-4",
+      "ap2ID": "id-75"
+    },
     {
       "ap2Name": "x length",
       "ap1ID": "id-6",
@@ -323,6 +376,11 @@
       "ap2ID": "id-56"
     },
     {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-12",
+      "ap2ID": "id-66"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-16",
       "ap2ID": "id-20"
@@ -331,6 +389,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-16",
       "ap2ID": "id-26"
+    },
+    {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-20",
+      "ap2ID": "id-66"
+    },
+    {
+      "ap2Name": "Shape 6",
+      "ap1ID": "id-26",
+      "ap2ID": "id-66"
     },
     {
       "ap2Name": "yDist",
@@ -348,14 +416,39 @@
       "ap2ID": "id-46"
     },
     {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-40",
+      "ap2ID": "id-66"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-46",
+      "ap2ID": "id-66"
+    },
+    {
       "ap2Name": "xDist",
       "ap1ID": "id-52",
       "ap2ID": "id-46"
     },
     {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-56",
+      "ap2ID": "id-66"
+    },
+    {
       "ap2Name": "xDist",
       "ap1ID": "id-62",
       "ap2ID": "id-56"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-66",
+      "ap2ID": "id-75"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-75",
+      "ap2ID": "id-2"
     }
   ],
   "unitsKey": "MM",
