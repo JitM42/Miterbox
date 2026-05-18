@@ -434,9 +434,9 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.29531250000000003,
-          "y": 0.34474327628361856,
-          "uniqueID": "id-263",
+          "x": 0.2713541666666667,
+          "y": 0.3349633251833741,
+          "uniqueID": "id-269",
           "ioValues": [
             {
               "name": "geometry",
@@ -444,8 +444,11 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
+              "ioValue": 90
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
             },
             {
               "name": "z-axis degrees",
@@ -478,12 +481,7 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "id-252",
-          "ap2ID": "id-263"
-        },
-        {
-          "ap2Name": "y-axis degrees",
-          "ap1ID": "id-252",
-          "ap2ID": "id-263"
+          "ap2ID": "id-269"
         },
         {
           "ap2Name": "yDist",
