@@ -68,8 +68,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.16041666666666665,
-      "y": 0.7530562347188264,
+      "x": 0.15520833333333334,
+      "y": 0.8068459657701711,
       "uniqueID": "id-16",
       "ioValues": [
         {
@@ -336,8 +336,8 @@
     },
     {
       "atomType": "RegularPolygon",
-      "x": 0.20208333333333334,
-      "y": 0.8753056234718827,
+      "x": 0.20989583333333334,
+      "y": 0.8704156479217604,
       "uniqueID": "id-87",
       "ioValues": [
         {
@@ -352,8 +352,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.49479166666666663,
-      "y": 0.8166259168704156,
+      "x": 0.2947916666666667,
+      "y": 0.841075794621027,
       "uniqueID": "id-91",
       "ioValues": [
         {
@@ -366,7 +366,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -375
+          "ioValue": 375
         },
         {
           "name": "zDist",
@@ -376,8 +376,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.2890625,
-      "y": 0.8728606356968216,
+      "x": 0.34427083333333336,
+      "y": 0.7897310513447433,
       "uniqueID": "id-97",
       "ioValues": [
         {
@@ -400,8 +400,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.3484375,
-      "y": 0.7872860635696822,
+      "x": 0.4177083333333333,
+      "y": 0.7359413202933985,
       "uniqueID": "id-103",
       "ioValues": [
         {
@@ -434,17 +434,21 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.3697916666666667,
-      "y": 0.6308068459657702,
+      "x": 0.2046875,
+      "y": 0.6528117359413204,
       "uniqueID": "id-113",
-      "name": "(depth/2)-(2*depth)",
+      "name": "(depth/2)+height",
       "ioValues": [
         {
           "name": "depth",
           "ioValue": 250
+        },
+        {
+          "name": "height",
+          "ioValue": 250
         }
       ],
-      "currentEquation": "(depth/2)-(2*depth)"
+      "currentEquation": "(depth/2)+height"
     },
     {
       "atomType": "Equation",
@@ -556,6 +560,11 @@
       "ap2ID": "id-107"
     },
     {
+      "ap2Name": "height",
+      "ap1ID": "id-10",
+      "ap2ID": "id-113"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-12",
       "ap2ID": "id-56"
@@ -647,18 +656,13 @@
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-87",
+      "ap1ID": "id-91",
       "ap2ID": "id-97"
     },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-97",
       "ap2ID": "id-103"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-103",
-      "ap2ID": "id-91"
     },
     {
       "ap2Name": "height",
