@@ -370,7 +370,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 1
+          "ioValue": 0
         }
       ]
     },
@@ -386,7 +386,7 @@
         },
         {
           "name": "x-axis degrees",
-          "ioValue": -90
+          "ioValue": 90
         },
         {
           "name": "y-axis degrees",
@@ -465,18 +465,8 @@
       "x": 0.4427083333333333,
       "y": 0.9633251833740831,
       "uniqueID": "id-129",
-      "name": "x + y",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 0
-        },
-        {
-          "name": "y",
-          "ioValue": 1
-        }
-      ],
-      "currentEquation": "x + y"
+      "name": "",
+      "currentEquation": ""
     }
   ],
   "allConnectors": [
@@ -649,11 +639,6 @@
       "ap2Name": "hinge",
       "ap1ID": "id-79",
       "ap2ID": "id-81"
-    },
-    {
-      "ap2Name": "zDist",
-      "ap1ID": "id-79",
-      "ap2ID": "id-91"
     },
     {
       "ap2Name": "diameter",
