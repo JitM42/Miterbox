@@ -406,7 +406,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 5
             },
             {
               "name": "yDist",
@@ -414,7 +414,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 10
             }
           ]
         },
@@ -448,7 +448,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0
+              "ioValue": -45
             },
             {
               "name": "z-axis degrees",
@@ -474,6 +474,11 @@
           "ap2ID": "id-258"
         },
         {
+          "ap2Name": "zDist",
+          "ap1ID": "id-245",
+          "ap2ID": "id-252"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-248",
           "ap2ID": "id-252"
@@ -487,6 +492,16 @@
           "ap2Name": "yDist",
           "ap1ID": "id-258",
           "ap2ID": "id-252"
+        },
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-258",
+          "ap2ID": "id-252"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-269",
+          "ap2ID": "id-240"
         }
       ],
       "fileTypeVersion": 1
