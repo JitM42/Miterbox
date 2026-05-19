@@ -470,8 +470,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.16041666666666665,
-          "y": 0.6381418092909535,
+          "x": 0.17239583333333333,
+          "y": 0.6503667481662592,
           "uniqueID": "id-307",
           "name": "(depth/2)+height",
           "ioValues": [
@@ -543,14 +543,6 @@
             }
           ],
           "currentEquation": "depth+height+height"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.3125,
-          "y": 0.11246943765281173,
-          "uniqueID": "id-311",
-          "name": "-height-width/2",
-          "currentEquation": "-height-width/2"
         },
         {
           "atomType": "Move",
@@ -696,6 +688,14 @@
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2973958333333333,
+          "y": 0.11491442542787285,
+          "uniqueID": "id-311",
+          "name": "-height-width/2",
+          "currentEquation": "-height-width/2"
         }
       ],
       "allConnectors": [
@@ -768,11 +768,6 @@
           "ap2Name": "height",
           "ap1ID": "id-310",
           "ap2ID": "id-308"
-        },
-        {
-          "ap2Name": "xDist",
-          "ap1ID": "id-311",
-          "ap2ID": "id-309"
         },
         {
           "ap2Name": "geometry",
@@ -853,6 +848,11 @@
           "ap2Name": "Shape 5",
           "ap1ID": "id-362",
           "ap2ID": "id-350"
+        },
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-311",
+          "ap2ID": "id-309"
         }
       ],
       "fileTypeVersion": 1
