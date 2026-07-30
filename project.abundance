@@ -124,8 +124,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.49739583333333337,
-      "y": 0.22115384615384617,
+      "x": 0.693359375,
+      "y": 0.40064102564102566,
       "uniqueID": "id-711",
       "ioValues": [
         {
@@ -1621,8 +1621,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.3216145833333333,
-      "y": 0.7628205128205128,
+      "x": 0.31315104166666663,
+      "y": 0.8461538461538461,
       "uniqueID": "id-915",
       "ioValues": [
         {
@@ -1641,8 +1641,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5390625,
-      "y": 0.7051282051282051,
+      "x": 0.5325520833333334,
+      "y": 0.7724358974358974,
       "uniqueID": "id-921",
       "ioValues": [
         {
@@ -1651,11 +1651,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": 168
+          "ioValue": 194
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 30
         },
         {
           "name": "zDist",
@@ -1682,7 +1682,7 @@
       "x": 0.42643229166666663,
       "y": 0.5480769230769231,
       "uniqueID": "id-932",
-      "name": "w/2+h+t",
+      "name": "w+h+t",
       "ioValues": [
         {
           "name": "w",
@@ -1690,14 +1690,14 @@
         },
         {
           "name": "h",
-          "ioValue": 140
+          "ioValue": 144
         },
         {
           "name": "t",
           "ioValue": 6
         }
       ],
-      "currentEquation": "w/2+h+t"
+      "currentEquation": "w+h+t"
     },
     {
       "atomType": "Input",
@@ -1708,21 +1708,37 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.43489583333333337,
-      "y": 0.8012820512820513,
+      "x": 0.38216145833333337,
+      "y": 0.6891025641025641,
       "uniqueID": "id-943",
-      "name": "d/2+t",
+      "name": "d+t",
       "ioValues": [
         {
           "name": "d",
-          "ioValue": 1
+          "ioValue": 24
         },
         {
           "name": "t",
-          "ioValue": 1
+          "ioValue": 6
         }
       ],
-      "currentEquation": "d/2+t"
+      "currentEquation": "d+t"
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.42447916666666663,
+      "y": 0.875,
+      "uniqueID": "id-949",
+      "name": "Lining",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "Lining"
+      ]
     }
   ],
   "allConnectors": [
@@ -1755,11 +1771,6 @@
       "ap2Name": "h",
       "ap1ID": "id-569",
       "ap2ID": "id-927"
-    },
-    {
-      "ap2Name": "h",
-      "ap1ID": "id-569",
-      "ap2ID": "id-932"
     },
     {
       "ap2Name": "d",
@@ -1862,6 +1873,11 @@
       "ap2ID": "id-716"
     },
     {
+      "ap2Name": "d",
+      "ap1ID": "id-604",
+      "ap2ID": "id-943"
+    },
+    {
       "ap2Name": "height",
       "ap1ID": "id-608",
       "ap2ID": "id-578"
@@ -1875,6 +1891,11 @@
       "ap2Name": "height",
       "ap1ID": "id-608",
       "ap2ID": "id-716"
+    },
+    {
+      "ap2Name": "h",
+      "ap1ID": "id-608",
+      "ap2ID": "id-932"
     },
     {
       "ap2Name": "number or geometry",
@@ -1914,7 +1935,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": "id-915",
-      "ap2ID": "id-921"
+      "ap2ID": "id-949"
     },
     {
       "ap2Name": "Shape 5",
@@ -1945,6 +1966,21 @@
       "ap2Name": "t",
       "ap1ID": "id-936",
       "ap2ID": "id-932"
+    },
+    {
+      "ap2Name": "t",
+      "ap1ID": "id-936",
+      "ap2ID": "id-943"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-943",
+      "ap2ID": "id-921"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-949",
+      "ap2ID": "id-921"
     }
   ],
   "unitsKey": "MM",
