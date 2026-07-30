@@ -20,7 +20,7 @@
     },
     {
       "name": "ply",
-      "ioValue": 10
+      "ioValue": 4
     }
   ],
   "topLevel": true,
@@ -64,9 +64,190 @@
       "y": 0.4307692307692308,
       "uniqueID": "id-575",
       "name": "ply"
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.2643229166666667,
+      "y": 0.14102564102564102,
+      "uniqueID": "id-578",
+      "name": "top/bottom",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-580",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.2604166666666667,
+      "y": 0.34615384615384615,
+      "uniqueID": "id-582",
+      "name": "front/back",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-584",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.25716145833333337,
+      "y": 0.5544871794871795,
+      "uniqueID": "id-586",
+      "name": "sides",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-588",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.171875,
+      "y": 0.8557692307692308,
+      "uniqueID": "id-590",
+      "name": "Lining",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-592",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.14322916666666669,
+      "y": 0.16987179487179488,
+      "uniqueID": "id-594",
+      "name": "w+p",
+      "ioValues": [
+        {
+          "name": "w",
+          "ioValue": 40
+        },
+        {
+          "name": "p",
+          "ioValue": 4
+        }
+      ],
+      "currentEquation": "w+p"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.14908854166666669,
+      "y": 0.4903846153846154,
+      "uniqueID": "id-604",
+      "name": "d+p",
+      "ioValues": [
+        {
+          "name": "p",
+          "ioValue": 4
+        },
+        {
+          "name": "d",
+          "ioValue": 20
+        }
+      ],
+      "currentEquation": "d+p"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1484375,
+      "y": 0.3205128205128205,
+      "uniqueID": "id-608",
+      "name": "h+p",
+      "ioValues": [
+        {
+          "name": "p",
+          "ioValue": 4
+        },
+        {
+          "name": "h",
+          "ioValue": 140
+        }
+      ],
+      "currentEquation": "h+p"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "w",
+      "ap1ID": "id-566",
+      "ap2ID": "id-594"
+    },
+    {
+      "ap2Name": "h",
+      "ap1ID": "id-569",
+      "ap2ID": "id-608"
+    },
+    {
+      "ap2Name": "d",
+      "ap1ID": "id-572",
+      "ap2ID": "id-604"
+    },
+    {
+      "ap2Name": "p",
+      "ap1ID": "id-575",
+      "ap2ID": "id-604"
+    },
+    {
+      "ap2Name": "p",
+      "ap1ID": "id-575",
+      "ap2ID": "id-608"
+    },
+    {
+      "ap2Name": "p",
+      "ap1ID": "id-575",
+      "ap2ID": "id-594"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
