@@ -10,6 +10,7 @@
 - **height** (number)
 - **depth** (number)
 - **ply** (number)
+- **tool** (number)
 
 
 
