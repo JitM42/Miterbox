@@ -4,6 +4,14 @@
 
 ![](/project.svg)
 
+## Inputs
+
+- **width** (number)
+- **height** (number)
+- **depth** (number)
+- **ply** (number)
+
+
 
 
  
